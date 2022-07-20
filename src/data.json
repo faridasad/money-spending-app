@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "name": "Cola",
+    "img": "https://www.bakenroll.az/en/image/coca-cola.jpg",
+    "price": 1
+  },
+  {
+    "id": 2,
+    "name": "Bread",
+    "img": "https://www.melskitchencafe.com/wp-content/uploads/rustic-bread-updated3.jpg",
+    "price": 2
+  },
+  {
+    "id": 3,
+    "name": "Gaming Laptop",
+    "img": "https://img.game-news24.com/2022/07/Asus-TUF-Gaming-RTX-3050-Ti-Gaming-Laptop-Now-999-dollars.jpeg",
+    "price": 999
+  },
+  {
+    "id": 4,
+    "name": "TV",
+    "img": "https://m.media-amazon.com/images/I/91m9eSn-mNS._AC_SL1500_.jpg",
+    "price": 599
+  },
+  {
+    "id": 5,
+    "name": "HyperX Headset",
+    "img": "https://m.media-amazon.com/images/I/71MJ3OaVqBL._AC_SY450_.jpg",
+    "price": 199
+  },
+  {
+    "id": 6,
+    "name": "Twitter",
+    "img": "https://i0.wp.com/voonze.com/wp-content/uploads/2022/05/Twitter-1-1-1000x600.jpg?fit=1000%2C600&ssl=1",
+    "price": 44000000000
+  },
+  {
+    "id": 7,
+    "name": "Los Angelas Lakers",
+    "img": "https://lh3.googleusercontent.com/QN-zSETBdcZ_gYkFR1saaBkuViJpuAbq4de_exOvSxgEO_pQLvlOBFJD_H8Ofy1FcTkVpmHgI28=w1440-ns-nd-rj",
+    "price": 5500000000
+  },
+  {
+    "id": 8,
+    "name": "Mbappe",
+    "img": "https://tmssl.akamaized.net/images/foto/galerie/kylian-mbappe-solo-jubel-rasen-psg-paris-1585148898-34755.jpg?lm=1585148928",
+    "price": 150000000
+  },
+  {
+    "id": 9,
+    "name": "Instagram",
+    "img": "https://i.insider.com/5f457a9389aff80028ab7e63?width=1136&format=jpeg",
+    "price": 100000000000
+  },
+  {
+    "id": 10,
+    "name": "Tesla Model X",
+    "img": "https://tesla-cdn.thron.com/delivery/public/image/tesla/3863f3e5-546a-4b22-bcbc-1f8ee0479744/bvlatuR/std/1200x628/MX-Social",
+    "price": 149490
+  },
+  {
+    "id": 11,
+    "name": "Razer Mousepad",
+    "img": "https://assets3.razerzone.com/nvbp9N9scFWws01W6OAutpagWRE=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh67%2Fhcf%2F9081440960542%2Ffirefly-v2-gallery-hero.jpg",
+    "price": 43
+  },
+  {
+    "id": 12,
+    "name": "Iphone 13 Pro Max",
+    "img": "https://www.powerplanetonline.com/cdnassets/iphone_13_pro_max_verde_alpino_01_l.jpg",
+    "price": 1599
+  },
+  {
+    "id": 13,
+    "name": "Activision Blizzard",
+    "img": "https://www.videogameschronicle.com/files/2022/01/activision-blizzard-logo.jpg",
+    "price": 8800000000
+  },
+  {
+    "id": 14,
+    "name": "Real Madrid",
+    "img": "https://www.realmadrid.com/StaticFiles/RealMadridResponsive/images/static/og-image.png",
+    "price": 3184000000
+  },
+  {
+    "id": 15,
+    "name": "Camp Nou",
+    "img": "https://www.fcbarcelona.com/fcbarcelona/photo/2020/02/24/3f1215ed-07e8-47ef-b2c7-8a519f65b9cd/mini_UP3_20200105_FCB_VIS_View_1a_Empty.jpg",
+    "price": 1730000000
+  },
+  {
+    "id": 16,
+    "name": "PlayStation 5",
+    "img": "https://media.wired.com/photos/629133e5e9a46d033b3380c7/master/pass/Finding-a-PlayStation-5-Is-About-to-Get-Easier-Gear-shutterstock_1855958302.jpg",
+    "price": 490
+  },
+  {
+    "id": 17,
+    "name": "Tiktok",
+    "img": "https://d.newsweek.com/en/full/1606545/tiktok-logo.jpg",
+    "price": 12000000000
+  },
+  {
+    "id": 19,
+    "name": "Freezer",
+    "img": "https://homehardware.sirv.com/products/3730/3730935.view?thumb",
+    "price": 349
+  },
+  {
+    "id": 20,
+    "name": "Space X Falcon 9 Rocket",
+    "img": "https://spacenews.com/wp-content/uploads/2021/05/50631642722_5f82f17757_k.jpg",
+    "price": 90000000
+  },
+  {
+    "id": 21,
+    "name": "1lt Milk",
+    "img": "https://5.imimg.com/data5/GJ/JP/MY-22125755/1-liter-fresh-cow-milk-500x500.jpg",
+    "price": 1
+  },
+  {
+    "id": 23,
+    "name": "Minecraft",
+    "img": "https://www.minecraft.net/content/dam/games/minecraft/key-art/Minecraft_JavaBedrock_Net_1170x500.jpg",
+    "price": 27
+  },
+  {
+    "id": 24,
+    "name": "Youtube",
+    "img": "https://www.youtube.com/img/desktop/yt_1200.png",
+    "price": 2800000000
+  },
+  {
+    "id": 25,
+    "name": "Steam",
+    "img": "https://cdn.cloudflare.steamstatic.com/store/home/store_home_share.jpg",
+    "price": 50000000
+  },
+  {
+    "id": 26,
+    "name": "Golf Cart",
+    "img": "https://islegolfcars.com/wp-content/themes/yootheme/cache/2018-electric-golf-cart-1-12f103f3-74ec848f.webp",
+    "price": 9000
+  },
+  {
+    "id": 27,
+    "name": "Golden Faucet",
+    "img": "https://www.fontanashowers.com/v/vspfiles/assets/images/Manaus%20Deck%20Mounted%20Gold%20Finish%20Kitchen%20Sink%20Faucet.jpg",
+    "price": 593
+  },
+  {
+    "id": 28,
+    "name": "Neymar Jr",
+    "img": "https://icdn.football-espana.net/wp-content/uploads/2022/06/Neymar-Junior2.jpeg",
+    "price": 75000000
+  },
+  {
+    "id": 29,
+    "name": "AK-47",
+    "img": "https://www.bratislavashootingclub.com/wp-content/uploads/2015/12/steamworkshop_webupload_previewfile_235024238_preview-e1453310947321.jpg",
+    "price": 3600
+  },
+  {
+    "id": 30,
+    "name": "Katana",
+    "img": "https://m.media-amazon.com/images/I/71ROz5x0ZxL._AC_SL1500_.jpg",
+    "price": 168
+  },
+  {
+    "id": 31,
+    "name": "Spotify",
+    "img": "https://www.scdn.co/i/_global/open-graph-default.png",
+    "price": 1140000000
+  },
+  {
+    "id": 32,
+    "name": "Paster",
+    "img": "https://kulis.az/storage/news/2021/december/23/big/61c47309b7aa661c47309b7aa7164026445761c47309b7aa461c47309b7aa5.jpg",
+    "price": 30000
+  },
+  {
+    "id": 33,
+    "name": "Turkish Golden Cups 12 Pcs",
+    "img": "https://ae04.alicdn.com/kf/Uaff65a248c4f40b9ace9884e236c57b7u.jpg",
+    "price": 89
+  },
+  {
+    "id": 34,
+    "name": "Persian Carpet",
+    "img": "https://m.media-amazon.com/images/I/91oFo+vszNL._AC_SL1500_.jpg",
+    "price": 43
+  },
+  {
+    "id": 35,
+    "name": "Watermelon",
+    "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/07/watermelon-1.jpg?quality=82&strip=1",
+    "price": 3
+  },
+  {
+    "id": 36,
+    "name": "Pilgrimage",
+    "img": "https://www.hajinformation.com/hajj.jpg",
+    "price": 10000
+  },
+  {
+    "id": 37,
+    "name": "Mohammed Salmon",
+    "img": "https://www.aljazeera.com/wp-content/uploads/2022/07/2022-07-15T182634Z_474746830_RC2HCV9LI00D_RTRMADP_3_USA-SAUDI.jpg?resize=770%2C513",
+    "price": 0
+  },
+  {
+    "id": 38,
+    "name": "Glock-18",
+    "img": "https://www.pewpewtactical.com/wp-content/uploads/2021/08/8.-Glock-18-Vertical-Grip-1024x573.jpg",
+    "price": 500
+  },
+  {
+    "id": 39,
+    "name": "TW Octane",
+    "img": "https://pbs.twimg.com/media/EUndDZHXsAUBBRp.png",
+    "price": 100
+  },
+  {
+    "id": 41,
+    "name": "Tesla CyberTruck",
+    "img": "https://www.tesla.com/xNVh4yUEc3B9/10_Desktop.jpg",
+    "price": 70000
+  },
+  {
+    "id": 42,
+    "name": "Air Conditioner",
+    "img": "https://klivago.com/media/image/product/5012/md/lg-air-conditioner-r32-wall-unit-dual-cool-ap09rt-25-kw-i-9000-btu~3.jpg",
+    "price": 1152
+  },
+  {
+    "id": 43,
+    "name": "Sobraine",
+    "img": "https://bravomarket.online/upload/iblock/a30/a3064177ea1e9d6c895d073e2ed79ebe.jpg",
+    "price": 3
+  },
+  {
+    "id": 44,
+    "name": "Rasmus Lerdorf",
+    "img": "https://pbs.twimg.com/profile_images/918348833205116928/V9ROYRNJ_400x400.jpg",
+    "price": 31
+  },
+  {
+    "id": 45,
+    "name": "RTX 3090 TI GIGABYTE",
+    "img": "https://c1.neweggimages.com/ProductImage/14-932-512-V13.jpg",
+    "price": 1499
+  },
+  {
+    "id": 46,
+    "name": "Poz-Qazan",
+    "img": "http://azerpost.az/uploads/news/medium/2021/09/3060.jpg",
+    "price": 1
+  },
+  {
+    "id": 47,
+    "name": "Mercedes Maybach",
+    "img": "https://www.motortrend.com/uploads/2021/12/2021-Mercedes-Maybach-S580-25.jpg",
+    "price": 212050
+  },
+  {
+    "id": 48,
+    "name": "Toyota Prius",
+    "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2022/prius/nightshadeeditionawd-e/1266/040/2.png?fm=webp&bg=white&w=768&h=328&q=90",
+    "price": 25000
+  },
+  {
+    "id": 49,
+    "name": "Napkin Rolls 12 Pcs",
+    "img": "https://m.media-amazon.com/images/I/61UMJvWgg-L._SL1000_.jpg",
+    "price": 167
+  },
+  {
+    "id": 50,
+    "name": "Braindom Games Fehlesi",
+    "img": "https://i.ibb.co/qR7gHq8/natiq.png",
+    "price": 31
+  },
+  {
+    "id": 51,
+    "name": "Birthday Cake",
+    "img": "https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg",
+    "price": 5
+  },
+  {
+    "id": 52,
+    "name": "Mahir Emreli",
+    "img": "https://blog.etopaz.az/media/2021/12/6155f2a43b6a5.jpg",
+    "price": 1500000
+  }
+]
