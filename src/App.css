@@ -10,7 +10,7 @@
   font-family: "Roboto Mono", monospace;
 }
 
-.App {
+.home {
   overflow: hidden;
 }
 
@@ -26,6 +26,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  z-index: 2;
 }
 
 .header-text {
@@ -71,17 +72,19 @@
 /* body */
 
 .item-container {
-  margin-top: 10em;
+  margin-top: 6em;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 4em;
+  padding: 6rem 0;
+  position: relative;
 }
 
 .card {
-  width: 300px;
+  max-width: 300px;
   height: 380px;
   display: flex;
   flex-direction: column;
@@ -90,6 +93,7 @@
 .card-img {
   width: 100%;
   flex: 1.5;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +101,8 @@
 
 .card-img img {
   max-width: 100%;
-  height: 200px;
+  width: 300px;
+  height: 100%;
   object-fit: cover;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -192,6 +197,7 @@
   justify-content: center;
   overflow: hidden;
   flex-direction: column;
+  position: relative;
 }
 
 .wrapper {
@@ -204,6 +210,9 @@
 
 .wrapper .card {
   width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro-header {
@@ -337,4 +346,82 @@
     margin-top: 11em;
     font-size: 0.7em;
   }
+}
+
+/* Toggle Theme */
+
+.checkbox-input {
+  position: absolute;
+  top: 22px;
+  right: 40px;
+}
+
+.checkbox-input input {
+  display: none;
+}
+
+.checkbox-input .checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5px;
+  width: 66px;
+  height: 37px;
+  border: 2px solid #ccc;
+  border-radius: 37px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-input .checkbox::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #222;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: 300ms left;
+  z-index: 1;
+}
+
+.checkbox-input input:checked + .checkbox::before {
+  left: 33px;
+}
+
+/* Dark Theme Styles */
+
+body {
+  transition: 300ms background-color, 300ms color;
+}
+
+body.dark .checkbox::before {
+  background-color: #fff;
+}
+
+body.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.card.dark {
+  background-color: rgb(50, 50, 50);
+  border-radius: 7px;
+}
+
+.card.dark .card-body .button.get-started {
+  background-color: #fff;
+  color: #222;
+}
+
+.card.dark.item {
+  background-color: rgb(50, 50, 50);
+  border-radius: 7px;
+}
+
+.checkout-wrapper.dark {
+  background-color: rgb(50, 50, 50);
+  color: #fff;
 }

@@ -1,15 +1,17 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { MainContext } from "../App";
+import ToggleTheme from "../components/ToggleTheme";
 
 function Intro() {
-  const { setMoney } = useContext(MainContext);
+  const { setMoney, isDark } = useContext(MainContext);
 
   return (
     <div className="intro-container">
+      <ToggleTheme />
       <h1 className="intro-header">Select Your Hero</h1>
       <div className="wrapper">
-        <div className="card">
+        <div className={isDark ? "card dark" : "card"}>
           <div className="card-img">
             <img
               src="https://images.mktw.net/im-582182?width=700&height=457"
@@ -28,7 +30,7 @@ function Intro() {
             </Link>
           </div>
         </div>
-        <div className="card">
+        <div className={isDark ? "card dark" : "card"}>
           <div className="card-img">
             <img
               src="https://cdnntr1.img.sputniknews.com/img/07e6/05/1a/1056706589_352:0:1195:843_1920x0_80_0_0_f3905d871e97ad937ef96aec0edfb63d.jpg"
@@ -47,7 +49,7 @@ function Intro() {
             </Link>
           </div>
         </div>
-        <div className="card">
+        <div className={isDark ? "card dark" : "card"}>
           <div className="card-img">
             <img
               src="https://i.ibb.co/Wv2Ptfv/Any-Conv-com-FLh8-AS2-WYAEOZh8.jpg"
@@ -66,7 +68,7 @@ function Intro() {
             </Link>
           </div>
         </div>
-        <div className="card">
+        <div className={isDark ? "card dark" : "card"}>
           <div className="card-img">
             <img
               src="https://static.wixstatic.com/media/1b3e6c_8d66cbbd921e4d21ae957caa5fab8aea~mv2.jpeg/v1/fill/w_1000,h_1006,al_c,q_90,usm_0.66_1.00_0.01/1b3e6c_8d66cbbd921e4d21ae957caa5fab8aea~mv2.jpeg"

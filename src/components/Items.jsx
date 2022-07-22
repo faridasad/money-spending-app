@@ -1,12 +1,14 @@
 import React, { useContext } from "react";
 import { MainContext } from "../App";
 import Item from "./Item";
+import ToggleTheme from "./ToggleTheme";
 
 function Items() {
   const { products } = useContext(MainContext);
 
   return (
     <div className="item-container">
+      <ToggleTheme />
       {products.map((item) => {
         return (
           <Item

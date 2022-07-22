@@ -15,7 +15,8 @@ export const MainContext = React.createContext();
 function App() {
   const [money, setMoney] = useState(0);
   const [basket, setBasket] = useState([]);
-  const [total, setTotal] = useState();
+  const [total, setTotal] = useState(0);
+  const [isDark, setIsDark] = useState(false);
 
   const data = {
     basket,
@@ -25,6 +26,8 @@ function App() {
     products,
     money,
     setMoney,
+    isDark,
+    setIsDark,
   };
 
   useEffect(() => {
@@ -39,7 +42,13 @@ function App() {
   }, [basket]);
 
   return (
-    <div>
+    <div
+      className={
+        isDark
+          ? document.body.classList.add("dark")
+          : document.body.classList.remove("dark")
+      }
+    >
       <MainContext.Provider value={data}>
         <Router>
           <Routes>

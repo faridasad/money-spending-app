@@ -3,7 +3,7 @@ import { MainContext } from "../App";
 import { moneyFormat } from "../utilities/MoneyFormat.js";
 
 function Item({ product, id, name, price, img }) {
-  const { basket, setBasket, total, money } = useContext(MainContext);
+  const { basket, setBasket, total, money, isDark } = useContext(MainContext);
 
   const basketItem = basket.find((item) => item.id === product.id);
 
@@ -42,7 +42,7 @@ function Item({ product, id, name, price, img }) {
   };
 
   return (
-    <div className="card">
+    <div className={isDark ? "card dark item" : "card"}>
       <div className="card-img">
         <img src={img} alt="" />
       </div>

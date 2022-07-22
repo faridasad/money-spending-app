@@ -2,15 +2,18 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { MainContext } from "../App";
 import BasketItem from "../components/BasketItem";
+import ToggleTheme from "../components/ToggleTheme";
 import { moneyFormat } from "../utilities/MoneyFormat";
 
 function Basket() {
-  const { basket, products, total, setBasket } = useContext(MainContext);
+  const { basket, products, total, setBasket, isDark } =
+    useContext(MainContext);
 
   return (
     <div className="checkout-container">
+      <ToggleTheme />
       <h1 className="checkout-header">CHECKOUT</h1>
-      <div className="checkout-wrapper">
+      <div className={isDark ? "checkout-wrapper dark" : "checkout-wrapper"}>
         <div className="placeholders">
           <h3>name</h3>
           <p>count</p>
