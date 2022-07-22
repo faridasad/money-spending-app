@@ -204,12 +204,6 @@
     "price": 10000
   },
   {
-    "id": 37,
-    "name": "Mohammed Salmon",
-    "img": "https://www.aljazeera.com/wp-content/uploads/2022/07/2022-07-15T182634Z_474746830_RC2HCV9LI00D_RTRMADP_3_USA-SAUDI.jpg?resize=770%2C513",
-    "price": 0
-  },
-  {
     "id": 38,
     "name": "Glock-18",
     "img": "https://www.pewpewtactical.com/wp-content/uploads/2021/08/8.-Glock-18-Vertical-Grip-1024x573.jpg",
@@ -240,12 +234,6 @@
     "price": 3
   },
   {
-    "id": 44,
-    "name": "Rasmus Lerdorf",
-    "img": "https://pbs.twimg.com/profile_images/918348833205116928/V9ROYRNJ_400x400.jpg",
-    "price": 31
-  },
-  {
     "id": 45,
     "name": "RTX 3090 TI GIGABYTE",
     "img": "https://c1.neweggimages.com/ProductImage/14-932-512-V13.jpg",
@@ -274,12 +262,6 @@
     "name": "Napkin Rolls 12 Pcs",
     "img": "https://m.media-amazon.com/images/I/61UMJvWgg-L._SL1000_.jpg",
     "price": 167
-  },
-  {
-    "id": 50,
-    "name": "Braindom Games Fehlesi",
-    "img": "https://i.ibb.co/qR7gHq8/natiq.png",
-    "price": 31
   },
   {
     "id": 51,
